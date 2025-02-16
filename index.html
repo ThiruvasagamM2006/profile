@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .profile-card {
+            background: rgb(238, 199, 92);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .name {
+            margin: 10px 0 5px;
+            font-size: 22px;
+        }
+
+        .bio {
+            color: rgb(29, 43, 240);
+            font-size: 14px;
+        }
+
+        .contact {
+            margin-top: 15px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            display: block;
+            margin: 5px 0;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .follow-btn {
+            background-color: #20C997;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .follow-btn:hover {
+            background-color: #18a682;
+        }
+    </style>
+
+    <div class="profile-card">
+        <img src="thiru.jpg" alt="Profile Picture" class="profile-img">
+        <h1 class="name">M.Thiruvasagam</h1>
+        <p class="bio">STUDENT</p>
+        <div class="contact">
+            <a href="mailto:your-email@gmail.com">📧 sundarammohan768@gmail.com@gmail.com</a>
+        </div>
+        <button class="follow-btn">Follow</button>
+    </div>
+</body>
+</html>
